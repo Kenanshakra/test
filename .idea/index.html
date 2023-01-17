@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js">
+    </script>
+    <script type="application/javascript">
+        $(function (){
+        $("#id1").click(function (){
+            $("#id1").html("Hello, any body here?")
+
+            });
+            $("#vis").click(function (){
+                $("#id1").show();
+            });
+            $("#ikkevis").click(function (){
+                $("#id1").hide();
+            });
+        });
+       </script>
+
+</head>
+<body>
+<div id="id1">Hei Ther is a text here</div>
+<button id="vis">Vis</button>
+<button id="ikkevis" > Ikke Vis</button>
+
+</body>
+</html>
